@@ -1,0 +1,81 @@
+#header input :focus{
+    width: 100%;
+    box-shadow: none;
+    border: #dee2e6;
+    
+}
+
+#header dropdown{
+    cursor: pointer;
+    display:block;
+}
+
+#subheader{
+width: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#subheader .bottom-header{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#main div{
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.align-item-center{
+    align-items: center;
+}
+
+#main .flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#main div .image{
+    border-radius: 50%;
+    position: absolute;
+    object-fit: contain;
+          
+}
+
+#main .btn{
+    background-color: #0054C0;
+    color: white;
+}
+
+#courses{
+    background-color: #EDF3FA;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    display: block;
+}
+
+
+#btn-head .btn{
+    border-radius: 14px;
+}
+
+#skill .bg-white{
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: auto;
+   
+}
+
+#skill img{
+    object-fit: contain;
+}
+
